@@ -15,7 +15,7 @@ spec:
         app: nginxhello
     spec:
       containers:
-      - image: gcr.io/k8s-minikube/kubernetes-bootcamp:v2
+      - image: docker.io/nbrown/nginxhello:1.19.0
         name: nginxhello
         ports:
         - containerPort: 80
